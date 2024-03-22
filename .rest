@@ -1,0 +1,12 @@
+@base = http://localhost:5000/api/notes
+
+get {{base}}
+
+###
+post {{base}}/create
+
+###
+put {{base}}/update/1234
+
+###
+delete {{base}}/delete/1234
